@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+    @apply px-2;
+}
+
+.bg-primary {
+    background: rgb(85 81 227);
+}
+
+.bg-secondary {
+    background: #2b2d77;
+}
+
+.mobile-nav {
+    @apply fixed top-14 left-0 bg-gray-800 w-full h-full h-1/3;
+}
+
+.mobile-nav li {
+    @apply w-full h-full text-center border-b-2;
+}
+
+.sec {
+    @apply flex flex-col md:flex-row px-5 py-32 justify-center;
+}
+
+.text {
+    @apply md:w-1/2 text-white text-6xl font-hero-font flex flex-col;
+}
+
+.sec img {
+    @apply md:w-1/3;
+}
+
+.icons {
+    @apply flex py-7;
+}
+
+.about-text {
+    @apply md:w-1/2 flex justify-center;
+}
+
+.about-text h1 {
+    @apply text-4xl text-white border-b-4 border-primary text-center mb-5 w-[160px] font-bold font-hero-font;
+}
+
+.about-text p {
+    @apply text-white p-5;
+}
+
+.about-img {
+    @apply py-5 md:w-1/2;
+}
+
+.about-mob {
+    @apply flex flex-col md:flex-row bg-secondary px-5;
+}
+
+.projects-text h1 {
+    @apply text-4xl text-white border-b-4 border-secondary text-center mb-5 w-[150px] font-bold font-hero-font;
+}
+
+.project-desc {
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+}
+
+.resume-img {
+    @apply py-5 md:w-1/2 flex justify-center md:justify-end;
+}
+
+.btn {
+    @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+.contact {
+    @apply flex flex-col bg-primary px-5 py-32;
+}
+
+.resume-text p {
+    @apply text-white p-5;
+}
+
+.contact-text h1 {
+    @apply text-5xl border-b-4 text-white border-secondary font-hero-font mb-5;
+}
+
+.contact-text p {
+    @apply text-white mb-5;
+}
+
+.Footer {
+    @apply py-4 bg-secondary text-center text-white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
